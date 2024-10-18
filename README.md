@@ -2,8 +2,67 @@
 This repository offers a collection of descriptions and download links for datasets related to Time Series Analysis, including tasks like forecasting, classification, and anomaly detection.
 
 ## Datasets for Time Series Forecasting
+- **Six Base Datasets**
+    - Electricity Transformer Temperature(ETT) datasets
+        - ETTh1, ETTh2 (at 1-hour intervals)
+        - ETTm1, ETTm2 (at 15-minute intervals)
+    - Electricity
+    - Weather
+    - Exchange
+    - Traffic
+    - Influenza-like Illness(ILI)
 
-## Datasets for spatio-temporal analysis
+- **Monash Time Series Forecasting Archive (NeurIPS 2021)**
+    - https://forecastingdata.org
+    - M1
+        - yearly
+        - quarterly
+        - monthly
+    - M3
+        - yearly
+        - quarterly
+        - monthly
+        - other
+    - M4
+        - yearly
+        - quarterly
+        - monthly
+        - weekly
+        - daily
+        - hourly
+    - NN5
+        - daily
+            - with missing values
+            - without missing values
+        - weekly
+    - Tourism
+    - CIF 2016
+    - London Smart Meters
+    - Australia Electricity Demand
+    - Wind Farms
+    - Dominick
+    - Bitcoin
+    - Pedestrian Counts
+    - Vehicle Trips
+    - KDD Cup 2018
+    - Weather
+    - Web Traffic
+    - Solar
+    - Electricity
+    - Car Parts
+    - FRED-MD
+    - San Francisco Traffic
+    - Rideshare
+    - Hospital
+    - COVID Deaths
+    - Temperature Rain
+    - Sunspot
+    - Saugeen River Flow
+    - US Births
+    - Solar Power
+    - Wind Power
+
+## Datasets for Spatio-Temporal Analysis
 
 ## Datasets for Time Series Anomaly Detection
 - **Secure Water Treatment(SWaT) dataset**
