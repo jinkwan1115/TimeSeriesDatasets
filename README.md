@@ -1,11 +1,11 @@
 # TimeSeriesDatasets
 This repository offers a collection of descriptions and download links for datasets related to Time Series Analysis, including tasks like forecasting, classification, and anomaly detection.
 
-## Datasets(Benchmarks) for Time Series Forecasting
+## Datasets for Time Series Forecasting
 
-## Datasets(Benchmarks) for spatio-temporal analysis
+## Datasets for spatio-temporal analysis
 
-## Datasets(Benchmarks) for Time Series Anomaly Detection
+## Datasets for Time Series Anomaly Detection
 - **Secure Water Treatment(SWaT) dataset**
     - You need to request dataset access from iTrust Labs(https://itrust.sutd.edu.sg/itrust-labs_datasets/dataset_info/#swat)
     - This dataset is collected from a real-world water treatment plant with 7 days of normal and 4 days of abnormal operation
@@ -41,3 +41,14 @@ This repository offers a collection of descriptions and download links for datas
     - Please refer to https://github.com/NetManAIOps/OmniAnomaly/blob/master/data_preprocess.py for preprocessing
     - [KDD 2019 paper] Robust Anomaly Detection for Multivariate Time Series through Stochastic Recurrent Neural Network
         - https://dl.acm.org/doi/10.1145/3292500.3330672
+
+## Datasets for Time Series Classification
+- **UEA Repo(Multivariate)**
+    - https://www.timeseriesclassification.com
+- **UCR Repo(Univariate)**
+    - https://www.timeseriesclassification.com
+- **UCI ML Repo**
+    - Human Activity Recognition(HAR)
+- **Paderborn University**
+    - Machine Fault Diagnosis(MFD)
+- **Sleep Stage Classification(SSC)**
