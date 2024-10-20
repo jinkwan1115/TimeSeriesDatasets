@@ -147,6 +147,30 @@ This repository offers a collection of descriptions and download links for datas
         - artificialAnomaly
             - Artificially generated data with varying types of anomalies
 
+- **HexagonML/UCR Time Series Anomaly Detection Datasets**
+    - https://www.cs.ucr.edu/~eamonn/time_series_data_2018/
+    - 250 datasets including InternalBleeding, ECG, …
+ 
+- **PhysioNet Open Access Databases - MIT-BIH Supraventricular Arrhythmia(MBA) Database**
+    - Medicine-related datasets
+    - https://physionet.org/content/svdb/1.0.0/
+    - A collection of electrocardiogram recordings from four patients, containing multiple instances of two different kinds of anomalies(either supraventricular contractions or premature heartbeats)
+    - [VLDB 2022 paper] TranAD: Deep Transformer Networks for Anomaly Detection in Multivariate Time Series Data
+    - Please refer to https://github.com/imperial-qore/TranAD/tree/main/data/MBA
+
+- **Multi-Source Distributed System(MSDS) Dataset**
+    - https://zenodo.org/records/3549604
+    - This is a recent high-quality multi-source data composed of distributed traces, application logs, and metrics from a complex distributed system
+    - This dataset is specifically built for AI operations, including automated anomaly detection, root cause analysis, and remediation
+    - Please refer to https://github.com/imperial-qore/TranAD/tree/main/data/MSDS
+
+- **Synthetic Dataset from MSCRED** https://github.com/7fantasysz/MSCRED
+    - https://github.com/imperial-qore/TranAD/tree/main/data/synthetic
+    - [AAAI 2019 paper] https://dl.acm.org/doi/10.1609/aaai.v33i01.33011409
+    - Trigonometric function (C1) simulates temporal patterns (s_rand is a 0 or 1 random seed)
+    - Time delay t ∈ [50, 100] and frequency ω ∈ [40, 50] (C2) simulates various periodic cycles
+    - Random Gaussian noise ε ∼ N (0, 1) scaled by factor λ = 0.3 (C3) simulates data noise as well as various shapes
+
 ## Datasets for Time Series Classification
 - **UEA Repo(Multivariate)**
     - https://www.timeseriesclassification.com
