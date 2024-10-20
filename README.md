@@ -104,7 +104,9 @@ This repository offers a collection of descriptions and download links for datas
         - https://dl.acm.org/doi/10.1145/3292500.3330672
      
 - **Numenta Anomaly Benchmark(NAB)**
-    - - [Neurocomputing 2017] Unsupervised real-time anomaly detection for streaming data(https://www.sciencedirect.com/science/article/pii/S0925231217309864)
+    - https://github.com/numenta/NAB
+    - [Neurocomputing 2017] Unsupervised real-time anomaly detection for streaming data
+      - https://www.sciencedirect.com/science/article/pii/S0925231217309864
     - A dataset of multiple real-world data traces, including readings from temperature sensors, CPU utilization of cloud machines, service request latencies and taxi demands in New York city
     - However, this dataset is known to have sequences with incorrect anomaly labels such as the nyc-taxi trace (must exclude)
     - Real data
