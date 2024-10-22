@@ -164,12 +164,32 @@ This repository offers a collection of descriptions and download links for datas
     - This dataset is specifically built for AI operations, including automated anomaly detection, root cause analysis, and remediation
     - Please refer to https://github.com/imperial-qore/TranAD/tree/main/data/MSDS
 
-- **Synthetic Dataset from MSCRED** https://github.com/7fantasysz/MSCRED
-    - https://github.com/imperial-qore/TranAD/tree/main/data/synthetic
+- **Synthetic Dataset from MSCRED** [MSCRED github page](https://github.com/7fantasysz/MSCRED)
+    - Please refer to https://github.com/imperial-qore/TranAD/tree/main/data/synthetic
     - [AAAI 2019 paper] https://dl.acm.org/doi/10.1609/aaai.v33i01.33011409
     - Trigonometric function (C1) simulates temporal patterns (s_rand is a 0 or 1 random seed)
     - Time delay t ∈ [50, 100] and frequency ω ∈ [40, 50] (C2) simulates various periodic cycles
     - Random Gaussian noise ε ∼ N (0, 1) scaled by factor λ = 0.3 (C3) simulates data noise as well as various shapes
+ 
+- **Yahoo S5 Dataset** [Link](https://webscope.sandbox.yahoo.com/catalog.php?datatype=s&did=70)
+    - Need to request for research purpose
+    - Computing Systems Data S5(A Labeled Anomaly Detection Dataset)
+
+- **Kaggle Credit Card Fraud Detection Dataset** [Link](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+    - The dataset contains transactions made by credit cards in September 2013 by European cardholders
+    - This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions
+    - The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions
+ 
+- **ICS Dataset for Smart Grid Anomaly Detection** [Link](https://ieee-dataport.org/documents/ics-dataset-smart-grid-anomaly-detection)
+    - The dataset comprises of several files that contain smart grid communication, namely protocols IEC 60870-104 (IEC 104) and IEC 61850 (MMS) in form of CSV traces
+    - It contains both normal traffic and communication with anomalies(cyber attacks, link failure, etc.)
+    - Not Free of Charge
+ 
+- **Drinking Water Quality Dataset(CECCO Challenge 2018)** [Link](https://www.spotseven.de/gecco/gecco-challenge/gecco-challenge-2018/)
+    - For the monitoring of the water quality, the Thüringer Fernwasserversorgung performs measurements at significant points throughout the whole water distribution system, in particular at the outflow of the waterworks and the in- and outflow of the water towers
+    - For this purpose, a part of the water is bypassed through a sen- sor system where the most important water quality indicators are measured
+    - Given is the amount of chlorine dioxide in the water, its pH value, the redox potential, its electric conductivity and the turbidity of the water. These values are the water quality indicators, any changes here are considered as events
+    - The flow rate and the temperature of the water is considered as operational data, changes in these values may indicate changes in the related quality values but are not considered as events themselves
 
 ## Datasets for Time Series Classification
 - **UEA Repo(Multivariate)**
