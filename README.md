@@ -127,8 +127,7 @@ This repository offers a collection of descriptions and download links for datas
                 - Temperature sensor data of an internal component of a large, industrial machine
                 - The first anomaly is a planned shutdown of the machine
                 - The second anomaly is difficult to detect and directly led to the third anomaly, a catastrophic failure of the machine
-            - nyc_taxi.csv
-              <span style="color:red"> (must exclude / incorrect anomaly labels) </span>
+            - nyc_taxi.csv  ${\textsf{\color{red}(must exclude / incorrect anomaly labels)}}$
                 - Number of NYC taxi passengers, where the five anomalies occur during the NYC marathon, Thanksgiving, Christmas, New Years day, and a snow storm
                 - The raw data is from the NYC Taxi and Limousine Commission
                 - The data file included here consists of aggregating the total number of taxi passengers into 30 minute buckets
