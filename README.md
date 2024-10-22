@@ -108,7 +108,7 @@ This repository offers a collection of descriptions and download links for datas
     - [Neurocomputing 2017] Unsupervised real-time anomaly detection for streaming data
       - https://www.sciencedirect.com/science/article/pii/S0925231217309864
     - A dataset of multiple real-world data traces, including readings from temperature sensors, CPU utilization of cloud machines, service request latencies and taxi demands in New York city
-    - However, this dataset is known to have sequences with incorrect anomaly labels such as the nyc-taxi trace (must exclude)
+    - However, this dataset is known to have sequences with incorrect anomaly labels such as the nyc-taxi trace
     - Real data
         - realAWSCloudwatch
             - AWS server metrics as collected by the AmazonCloudwatch service. Example metrics include CPU Utilization, Network Bytes In, and Disk Read Bytes
@@ -127,7 +127,7 @@ This repository offers a collection of descriptions and download links for datas
                 - Temperature sensor data of an internal component of a large, industrial machine
                 - The first anomaly is a planned shutdown of the machine
                 - The second anomaly is difficult to detect and directly led to the third anomaly, a catastrophic failure of the machine
-            - nyc_taxi.csv
+            - nyc_taxi.csv \color{#DD6565}(must exclude / incorrect anomaly labels)
                 - Number of NYC taxi passengers, where the five anomalies occur during the NYC marathon, Thanksgiving, Christmas, New Years day, and a snow storm
                 - The raw data is from the NYC Taxi and Limousine Commission
                 - The data file included here consists of aggregating the total number of taxi passengers into 30 minute buckets
