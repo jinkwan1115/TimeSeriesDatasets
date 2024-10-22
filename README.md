@@ -187,7 +187,7 @@ This repository offers a collection of descriptions and download links for datas
  
 - **Drinking Water Quality Dataset(CECCO Challenge 2018)** [Link](https://www.spotseven.de/gecco/gecco-challenge/gecco-challenge-2018/)
     - For the monitoring of the water quality, the Thüringer Fernwasserversorgung performs measurements at significant points throughout the whole water distribution system, in particular at the outflow of the waterworks and the in- and outflow of the water towers
-    - For this purpose, a part of the water is bypassed through a sen- sor system where the most important water quality indicators are measured
+    - For this purpose, a part of the water is bypassed through a sensor system where the most important water quality indicators are measured
     - Given is the amount of chlorine dioxide in the water, its pH value, the redox potential, its electric conductivity and the turbidity of the water. These values are the water quality indicators, any changes here are considered as events
     - The flow rate and the temperature of the water is considered as operational data, changes in these values may indicate changes in the related quality values but are not considered as events themselves
 
