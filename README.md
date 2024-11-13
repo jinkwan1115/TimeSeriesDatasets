@@ -1,13 +1,16 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fjinkwan1115%2FTimeSeriesDatasets&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
-# TimeSeriesDatasets
+# TimeSeries Datasets
 This repository offers a collection of descriptions and download links for datasets related to Time Series Analysis, including tasks like forecasting, classification, and anomaly detection.
 
 ## Datasets for Time Series Forecasting
 - **Six Base Datasets**
     - Electricity Transformer Temperature(ETT) datasets
-        - ETTh1, ETTh2 (at 1-hour intervals)
-        - ETTm1, ETTm2 (at 15-minute intervals)
+        - ETTh1, ETTh2, ETTm1, ETTm2 (at 1-hour(or 15-minute) intervals / 6 variables / Target: 'OT')
+            - HUFL / HULL
+            - MUFL / MULL
+            - LUFL / LULL
+        
     - Electricity
     - Weather
     - Exchange
